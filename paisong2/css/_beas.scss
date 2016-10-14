@@ -1,0 +1,92 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0; padding:0;}
+body{
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.428571429;
+  font-family: "STHeiti Light", STXihei, SimHei;
+}
+*,*:before, *:after {
+  box-sizing: border-box;
+}
+ul,li{list-style:none;}
+html,body{
+  width:100%;
+}
+b{
+  font-weight:normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input,a,button{
+  outline: none;
+  border:none;
+}
+em, i{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+
+}
+
+
+
+
+@mixin margin{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@mixin clear{
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.container {
+  @include margin;
+}
+.container:after{
+  @include clear;
+}
+.visible_xs{
+  display: none;
+}
+
+.hidden_xs{
+  display: block;
+}
+
+
+@media (max-width:767px){
+  body {
+    font-size: 16px;
+  }
+  .visible_xs{
+    display: block;
+  }
+  .hidden_xs{
+    display: none;
+  }
+}
+@media (min-width: 768px){
+  .container{
+    width:750px;
+  }
+}
+@media (min-width: 992px){
+  .container{
+    width:970px;
+  }
+}
+@media (min-width: 1200px){
+  .container{
+    width:1170px;
+  }
+}
+
+
+

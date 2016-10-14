@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>派送</title>
+    <!--<link rel="stylesheet" href="common.css"/>-->
+    <!--<link rel="stylesheet" href="index.css"/>-->
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+ <div class="top">
+     <div class="container">
+         <div class="top_header visible_xs">
+             <span class="xs_city">北京</span>
+             <div class="navbar-brand">
+                 <a href="javascript:;">
+                     <img src="images/logo-text.png" />
+                 </a>
+             </div>
+             <a class="icon_phone" href="javascript:;">
+                 <i></i>
+             </a>
+         </div>
+         <div class="logo hidden_xs">
+             <a href="javascript:;">
+                 <img src="images/logo-text.png" />
+             </a>
+         </div>
+         <div class="city hidden_xs">
+             <p class="">
+                 <span class="city_tit">当前城市：</span>
+                 北京
+                 <span class="icon"></span>
+             </p>
+             <ul>
+                 <li>上海</li>
+                 <li>杭州</li>
+                 <li>天津</li>
+             </ul>
+         </div>
+         <div class="navlist hidden_xs">
+             <span class="midd">|</span>
+             <div class="list">
+                 <a href="javascript:;">
+                     <span class="nav">产品列表</span>
+                     <span class="icon"></span>
+                 </a>
+                 <ul>
+                     <li><a href="javascript:;">迪士尼系列</a></li>
+                     <li><a href="javascript:;">礼盒</a></li>
+                     <li><a href="javascript:;">季节精选</a></li>
+                     <li><a href="javascript:;">蛋糕</a></li>
+                     <li><a href="javascript:;">纸杯蛋糕</a></li>
+                     <li><a href="javascript:;">派</a></li>
+                     <li><a href="javascript:;">挞</a></li>
+                     <li><a href="javascript:;">礼品卡</a></li>
+                 </ul>
+             </div>
+             <span class="midd">|</span>
+             <div class="list">
+                 <a href="javascript:;">
+                     <span class="nav">寻找我们</span>
+                     <span class="icon"></span>
+                 </a>
+                 <ul>
+                     <li><a href="javascript:;">门店</a></li>
+                     <li><a href="javascript:;">配送须知</a></li>
+                 </ul>
+             </div>
+             <span class="midd">|</span>
+             <div class="list">
+                 <a href="javascript:;">
+                     <span class="nav">活动</span>
+                 </a>
+             </div>
+             <span class="midd">|</span>
+             <div class="list">
+                 <a href="javascript:;">
+                     <span class="nav">关于</span>
+                     <span class="icon"></span>
+                 </a>
+                 <ul>
+                     <li><a href="javascript:;">会员</a></li>
+                     <li><a href="javascript:;">我们</a></li>
+                     <li><a href="javascript:;">礼品卡</a></li>
+                 </ul>
+             </div>
+
+         </div>
+         <ul class="top_right">
+             <li><a href="javascript:;">登录</a></li>
+             <li><a href="javascript:;">注册</a></li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">产品目录<span class="icon"></span></a>
+                 <ul>
+                     <li><a href="javascript:;">迪士尼系列</a></li>
+                     <li><a href="javascript:;">礼盒</a></li>
+                     <li><a href="javascript:;">季节精选</a></li>
+                     <li><a href="javascript:;">蛋糕</a></li>
+                     <li><a href="javascript:;">纸杯蛋糕</a></li>
+                     <li><a href="javascript:;">派</a></li>
+                     <li><a href="javascript:;">挞</a></li>
+                     <li><a href="javascript:;">礼品卡</a></li>
+                 </ul>
+             </li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">城市<span class="icon"></span></a>
+                 <ul>
+                     <li><a href="javascript:;">上海</a></li>
+                     <li><a href="javascript:;">杭州</a></li>
+                     <li><a href="javascript:;">天津</a></li>
+                 </ul>
+             </li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">寻找我们<span class="icon"></span></a>
+                 <ul>
+                     <li><a href="javascript:;">门店</a></li>
+                     <li><a href="javascript:;">配送须知</a></li>
+                 </ul>
+             </li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">
+                     <span class="nav">活动</span>
+                 </a>
+             </li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">
+                     <span class="nav">会员</span>
+                 </a>
+             </li>
+             <li class="down visible_xs">
+                 <a href="javascript:;">
+                     <span class="nav">关于</span>
+                     <span class="icon"></span>
+                 </a>
+                 <ul>
+                     <li><a href="javascript:;">会员</a></li>
+                     <li><a href="javascript:;">我们</a></li>
+                     <li><a href="javascript:;">礼品卡</a></li>
+                 </ul>
+             </li>
+             <li>
+                 <a href="javascript:;">
+                     <i class="icon_cart"></i>
+                     <span class="cart_tit">购物车</span>
+                     <span class="num">2</span>
+                     ¥<span class="allprice">215</span>
+                 </a>
+             </li>
+         </ul>
+     </div>
+ </div>
+ <div class="top_nav">
+     <a href="javascript:;">
+         <div class="nav_list">
+             <i class="icon_home"></i>
+             首页
+         </div>
+     </a>
+     <a href="javascript:;">
+         <div class="nav_list">
+             <i class="icon_pro-list"></i>
+             产品列表
+         </div>
+     </a>
+     <a href="javascript:;">
+         <div class="nav_list">
+             <i class="icon_parsen"></i>
+             个人中心
+         </div>
+     </a>
+     <a href="javascript:;">
+         <div class="nav_list">
+             <i class="icon_cart">
+                 <img src="images/cart1.png" />
+                 <!--<span class="num">2</span>-->
+             </i>
+             购物车
+         </div>
+     </a>
+ </div>
+
+ <!--pic-->
+ <div class="pic">
+     <div class="pic-box">
+         <ul id="spic" class="pic-list">
+             <li><img src="images/s1.jpg"/></li>
+             <li><img src="images/s2.jpg"/></li>
+             <li><img src="images/s3.jpg"/></li>
+             <li><img src="images/s4.jpg"/></li>
+             <li><img src="images/s5.jpg"/></li>
+             <li><img src="images/s6.jpg"/></li>
+             <li><img src="images/s1.jpg"/></li>
+
+         </ul>
+         <ul id="bpic" class="pic-list">
+             <li><img src="images/b1.jpg"/></li>
+             <li><img src="images/b2.jpg"/></li>
+             <li><img src="images/b3.jpg"/></li>
+             <li><img src="images/b4.jpg"/></li>
+             <li><img src="images/b5.jpg"/></li>
+             <li><img src="images/b6.jpg"/></li>
+             <li><img src="images/b1.jpg"/></li>
+         </ul>
+         <ul class="pic-icon">
+             <li class="active"></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+         </ul>
+         <a href="javascript:;" class="btn1 pic-left-btn"><</a>
+         <a href="javascript:;" class="btn1 pic-right-btn">></a>
+     </div>
+ </div>
+<!--pro-->
+ <div class="container marketing center">
+     <div class="row">
+         <div class="front-page-header">
+             <span class="caret caret-right"></span>
+             <b>
+                 <a href="/cities/beijing/categories/disney">产品列表</a>
+             </b>
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-md-15 col-sm-15 col-xs-6">
+             <div>
+                 <a href="#">
+                     <img class="img-responsive" src="images/p1.jpg">
+                 </a>
+             </div>
+             <a class="product-category-link" href="#">
+                 Disney / 迪士尼系列
+             </a>
+         </div>
+         <div class="col-md-15 col-sm-15 col-xs-6">
+             <div>
+                 <a href="#">
+                     <img class="img-responsive" src="images/p2.jpg"/>
+             </div>
+             <a class="product-category-link" href="#">
+                 Cakes / 蛋糕
+             </a>
+         </div>
+         <div class="col-md-15 col-sm-15 col-xs-6">
+             <div>
+                 <a href="#">
+                     <img class="img-responsive" src="images/p3.jpg">
+                 </a>
+             </div>
+             <a class="product-category-link" href="#">
+                 Cupcakes / 纸杯蛋糕
+             </a>
+         </div>
+         <div class="col-md-15 col-sm-15 col-xs-6">
+             <div>
+                 <a href="#">
+                     <img class="img-responsive" src="images/p4.jpg">
+                 </a>
+             </div>
+             <a class="product-category-link" href="#">
+                 Tartlets / 挞
+             </a>
+         </div>
+         <div class="col-md-15 col-sm-15 hidden-xs">
+             <div>
+                 <a href="#">
+                     <img alt="Lipinka768x768 160413" class="img-responsive" src="images/p5.jpg">
+                 </a>
+             </div>
+             <a class="product-category-link" href="#">
+                 礼品卡
+             </a>
+         </div>
+     </div>
+ </div>
+<!--new-->
+ <div class="container marketing center">
+     <div class="row">
+         <div class="front-page-header">
+             <span class="caret caret-right"></span>
+             <b>新品推荐</b>
+         </div>
+     </div>
+     <div class="row" id="row1">
+
+     </div>
+ </div>
+ <!--开页面显示-->
+ <div class="pop_city_select" id="set_current_city" style="display:none">
+     <div class="hidden-xs col-md-4 col-sm-4 content_left">
+         <img alt="Logo" class="img-responsive" src="images/pai.png">
+         <img alt="Brand icons" class="img-responsive" src="images/pai2.png">
+     </div>
+     <div class="hidden-xs col-md-7 col-sm-7 content_right">
+         <div class="title">WELCOME</div>
+         <div class="cont">欢迎来到派悦坊</div>
+         <p>目前我们提供以下城市的配送服务，请根据您的收货地址选择：</p>
+         <div class="pc-content col-md-12 col-sm-12 pantry-padding-0px">
+             <div class="col-md-3 col-sm-3 city_list pc-currnet-city" data="beijing">
+                 <div class="btn city_select current_city">北京</div>
+             </div>
+             <div class="col-md-3 col-sm-3 city_list pc-currnet-city" data="shanghai">
+                 <div class="btn city_select">上海</div>
+             </div>
+             <div class="col-md-3 col-sm-3 city_list pc-currnet-city" data="tianjin">
+                 <div class="btn city_select">天津</div>
+             </div>
+             <div class="col-md-3 col-sm-3 city_list pc-currnet-city" data="hangzhou">
+                 <div class="btn city_select">杭州</div>
+             </div>
+         </div>
+     </div>
+     <div class="visible-xs content_title">
+         <span class="fa fa-map-marker"></span>
+         请选择您的收货地址
+     </div>
+     <div class="visible-xs content row">
+         <div class="col-xs-3 city_list">
+             <div class="btn city_select current_city" data="beijing">北京</div>
+         </div>
+         <div class="col-xs-3 city_list">
+             <div class="btn city_select" data="shanghai">上海</div>
+         </div>
+         <div class="col-xs-3 city_list">
+             <div class="btn city_select" data="tianjin">天津</div>
+         </div>
+         <div class="col-xs-3 city_list">
+             <div class="btn city_select" data="hangzhou">杭州</div>
+         </div>
+     </div>
+     <div class="visible-xs content_footer">
+         <div class="btn setup_current_city" id="mobile_setup_current_city">
+             开始购物
+         </div>
+     </div>
+ </div>
+<!--foot-->
+ <div class="footer text-muted">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12 col-sm-12 hidden-xs">
+                 <table>
+                     <tbody><tr>
+                         <td class="footer-block not-last">
+                             <img alt="Ui0813 66" class="telephone-image-size" src="images/foot1.jpg">
+                             <div class="info">
+                                 订购邮箱
+                             </div>
+                             <div class="info">
+                                 order@pantrysbest.com
+                             </div>
+                             <div class="info">
+                                 北京市朝阳区神路街39号10幢3层4段92-93
+                             </div>
+                         </td>
+                         <td class="footer-block not-last">
+                             <div class="info">
+                                 官方微博 | 官方微信
+                             </div>
+                             <div class="info">
+                                 <a href="#" target="_blank"><i class="fa fa-weibo fa-2x"></i></a>
+                                 <img alt="Weixin" src="images/foot2.jpg" width="70px">
+                             </div>
+                         </td>
+                         <td class="footer-block">
+                             <img alt="Brand icons" id="brand-icons" src="images/foot3.jpg">
+                         </td>
+                     </tr>
+                     </tbody>
+                 </table>
+             </div>
+         </div>
+         <div class="visible-xs" id="phone-number">
+             <a href="tel:4008314159">
+                 <i class="fa fa-phone"></i>
+                 4008-3-14159
+             </a>
+         </div>
+         <div id="icp">
+             Copyright 2010-2016 派悦坊，Ltd 京ICP备12046340
+         </div>
+     </div>
+ </div>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/common.js"></script>
+<script src="js/strOper.js"></script>
+<script src="js/index.js"></script>
+</html>

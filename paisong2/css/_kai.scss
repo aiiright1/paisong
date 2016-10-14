@@ -1,0 +1,139 @@
+@media (min-width: 768px){
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .fa-weibo{
+    display: block;
+    width:20px;
+    height:20px;
+    background:url(images/weibo.png) no-repeat center;
+    float:left;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px){
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+.pop_city_select {
+  width: 450px;
+  position: fixed;
+  background: white;
+  z-index: 9999;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  /*display: none;*/
+  top: 35%;
+  left: 33%;
+  box-sizing: border-box;
+  .pc-content {
+    padding: 0%;
+    .city_list {
+      padding: 2px;
+      box-sizing: border-box;
+    }
+    .city_select {
+      background-color: white;
+      border: 1px solid #cccccc;
+      width: 100%;
+      color: #cccccc;
+      &:hover{
+        background: #390c20;
+        color:#fff;
+      }
+    }
+    .btn {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: normal;
+      text-align: center;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.428571429;
+      border-radius: 4px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      box-sizing: border-box;
+      margin-top: 10px;
+    }
+  }
+  .pantry-padding-0px {
+    padding: 0px;
+  }
+  .content_left {
+    border-right: 1px solid #cccccc;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    .img-responsive {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .content_right {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    .title {
+      font-size: 16pt;
+      font-weight: bolder;
+      box-sizing: border-box;
+    }
+    .pop_city_select .content_right .cont {
+      font-size: 14pt;
+      margin-top: -5px;
+      box-sizing: border-box;
+      margin-bottom: 5px;
+    }
+  }
+
+}

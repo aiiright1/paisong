@@ -1,0 +1,31 @@
+[
+  {
+    "imgsrc":"images/new1.jpg",
+    "title":"爱丽丝梦游仙境丝绒蛋糕",
+    "price":"299",
+    "pid":"1",
+    "size":"6时"
+  },
+  {
+    "imgsrc":"images/new2.jpg",
+    "title":"爱丽丝梦游仙境纸杯蛋糕",
+    "price":"199",
+    "pid":"2",
+    "size":"礼盒"
+  },
+  {
+    "imgsrc":"images/new3.jpg",
+    "title":"红丝绒圆舞曲蛋糕",
+    "price":"249",
+    "pid":"3",
+    "size":"6时"
+  },
+  {
+    "imgsrc":"images/new4.jpg",
+    "title":"海盐焦糖南瓜慕斯蛋糕",
+    "price":"199",
+    "pid":"4",
+    "size":"6时"
+  }
+
+]
